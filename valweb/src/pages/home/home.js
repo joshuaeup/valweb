@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../../components/navbar";
 import Banner from "../../components/banner";
+import Grid from "../../components/grid";
 require ("./home.css");
 
 class home extends React.Component {
@@ -16,6 +17,7 @@ class home extends React.Component {
             <div id="homeMainContainer" className="container-fluid">
                 <Navbar />
                 <Banner />
+                <Grid />
             </div>
         )
     }

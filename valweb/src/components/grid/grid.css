@@ -1,0 +1,42 @@
+.mainGridContainer {
+    margin: 1vh 0 1vh 0;
+}
+
+.customOuterGrid {
+    z-index: 1;
+    position: relative;
+    /* background: orange; */
+}
+
+.customGridColLeft, .customGridColMiddle, .customGridColRight {
+    z-index: 3;
+   text-align: center;
+   margin-top: 15%;
+   /* vertical-align: middle; */
+}
+
+
+#overlayLeft, #overlayMiddle, #overlayRight {
+    opacity: 0.6;
+    background: skyblue;
+    z-index: 2;
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 1%;
+    -webkit-transition: height 1.5s; /* For Safari 3.1 to 6.0 */
+    transition: height 1.5s;
+}
+
+.customGridColLeft:hover + #overlayLeft {
+    height: 100%
+}
+
+.customGridColMiddle:hover + #overlayMiddle {
+    height: 100%
+}
+
+.customGridColRight:hover + #overlayRight {
+    height: 100%
+}
+
