@@ -1,0 +1,25 @@
+#navbar {
+    padding: 0;
+}
+
+.navBtn {
+    margin: 2vh;
+}
+
+.maxWidth {
+    width: 100%;
+}
+
+#textWhite {
+    color: white;
+}
+
+#toggleBtn {
+    margin: 2vh;
+    font-size: 4vh;
+    border: solid 2px white;
+}
+
+.customNavItem {
+    margin: 1vh 0 1vh 0;
+}
