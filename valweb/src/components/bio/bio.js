@@ -6,8 +6,10 @@ const bio = () => {
     return (
         <div id="bioMainContainer">
             <div className="row">
-                <div className="col-sm-12 col-md-12 col-lg-5 d-flex justify-content-center flex-column">
+                <div className="col-sm-12 col-md-12 col-lg-5 d-flex  flex-column">
+                <div className="d-flex justify-content-center">
                     <img id="bioProfileImg" className="rounded p-2 "  alt="Profile" src={profileImg} />
+                </div>
                     <p id="bioTitle" className="p-2">Valerie Belton</p>
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-7">

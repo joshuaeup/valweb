@@ -6,7 +6,7 @@
 
 #bioProfileImg {
     height: 50vh;
-    width: 30vw;
+    width: auto;
     border-radius: 100%;
     margin: 6vh 0 5vh 0;
 }
