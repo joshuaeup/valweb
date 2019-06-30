@@ -10,16 +10,19 @@ const navbar = () => {
         <div className="collapse navbar-collapse maxWidth justify-content-center" id="navbarNavDropdown">
             <ul className="navbar-nav">
                 <li className="nav-item customNavItem">
-                    <button className="navBtn btn btn-outline-danger my-2 my-sm-0" type="submit">Music</button>     
+                    <button className="navBtn btn my-2 my-sm-0" type="submit">Music</button>     
                 </li>
                 <li className="nav-item customNavItem">
-                    <button className="navBtn btn btn-outline-danger my-2 my-sm-0" type="submit">Home</button>                     
+                    <button className="navBtn btn my-2 my-sm-0" type="submit">Home</button>                     
                 </li>
                 <li className="nav-item customNavItem">
-                    <button className="navBtn btn btn-outline-danger my-2 my-sm-0" type="submit">About</button>                     
+                    <button className="navBtn btn my-2 my-sm-0" type="submit">About</button>                     
                 </li>
                 <li className="nav-item customNavItem">
-                    <button className="navBtn btn btn-outline-danger my-2 my-sm-0" type="submit">Contact</button>                
+                    <button className="navBtn btn my-2 my-sm-0" type="submit">Contact</button>                
+                </li>
+                <li className="nav-item customNavItem">
+                    <button className="navBtn btn my-2 my-sm-0" type="submit">Contact</button>                
                 </li>
             </ul>
         </div>

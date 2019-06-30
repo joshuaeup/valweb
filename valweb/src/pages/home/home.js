@@ -2,6 +2,9 @@ import React from "react";
 import Navbar from "../../components/navbar";
 import Banner from "../../components/banner";
 import Grid from "../../components/grid";
+import Bio from "../../components/bio"
+import Contact from "../../components/contact";
+import Footer from "../../components/footer";
 require ("./home.css");
 
 class home extends React.Component {
@@ -18,6 +21,9 @@ class home extends React.Component {
                 <Navbar />
                 <Banner />
                 <Grid />
+                <Bio />
+                <Contact />
+                <Footer />
             </div>
         )
     }

@@ -1,5 +1,5 @@
 .mainGridContainer {
-    margin: 1vh 0 1vh 0;
+    margin: 4vh 0 4vh 0;
 }
 
 .customOuterGrid {
@@ -38,5 +38,10 @@
 
 .customGridColRight:hover + #overlayRight {
     height: 100%
+}
+
+.customCardTitle {
+    font-size: 3vh;
+    font-weight: bold;
 }
 

@@ -3,7 +3,14 @@
 }
 
 .navBtn {
+    border: 1px black solid;
+    background: transparent;
     margin: 2vh;
+    font-weight: bold;
+}
+
+.navBtn:hover {
+    background: white;
 }
 
 .maxWidth {

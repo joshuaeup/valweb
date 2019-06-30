@@ -1,0 +1,32 @@
+#bioMainContainer {
+    background: whitesmoke;
+    padding: 5vh;
+    margin-bottom: 4vh;
+}
+
+#bioProfileImg {
+    height: 50vh;
+    width: 30vw;
+    border-radius: 100%;
+    margin: 6vh 0 5vh 0;
+}
+
+#bioTitle {
+    font-size: 5vh;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#bioText {
+    font-size: 3vh;
+}
+
+.bioContactBtnContainer {
+    width: 100%;
+    text-align: center;
+}
+
+.bioContactBtn {
+    font-size: 3vh;
+    width: 50%;
+}
