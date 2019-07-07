@@ -12,8 +12,8 @@
 }
 
 #bannerImg {
-    height: 15vh;
-    width: 17vh;
+    height: 25vh;
+    width: 27vh;
 }
 
 
@@ -25,11 +25,12 @@
 }
 
 .bannerTextContainer {
-    margin-top: 5vh;
+    margin: 2vh 15vh 0 15vh;
 }
 
 
-#bannertext {
+.bannerText {
+    color: white;
     font-size: 3vh;
 }
 
@@ -40,4 +41,5 @@
 #bannerBtn {
     /* width: 20vw; */
     font-size: 3vh;
+    
 }

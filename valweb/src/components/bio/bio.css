@@ -18,7 +18,9 @@
 }
 
 #bioText {
+    height: 45vh;
     font-size: 3vh;
+    overflow: scroll;
 }
 
 .bioContactBtnContainer {
@@ -26,7 +28,22 @@
     text-align: center;
 }
 
-.bioContactBtn {
+.bioContactBtn, .bioLearnMoreBtn {
+    margin: 0 1vh 0 1vh;
     font-size: 3vh;
-    width: 50%;
+    width: 30%;
+}
+
+.arrowFont {
+    margin-bottom: 4vh;
+    font-size: 4vh;
+}
+
+.arrowFont:hover{
+    
+}
+
+
+#AwardTemp {
+    height: 80vh;;
 }

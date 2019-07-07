@@ -3,7 +3,7 @@ require ("./navbar.css");
 
 const navbar = () => {
     return (
-    <nav className="navbar navbar-expand-lg fixed-top">
+    <nav id="customNav" className="navbar navbar-expand-lg fixed-top">
         <button id="toggleBtn" className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <i className="fas fa-bars" id="textWhite"></i>
         </button>
