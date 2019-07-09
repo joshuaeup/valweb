@@ -3,7 +3,7 @@ require("./footer.css");
 
 const footer = () => {
     return (
-        <footer className="page-footer font-small unique-color-dark">
+        <footer id="mainFooterContainer" className="page-footer font-small unique-color-dark">
             <div>
                 <div className="container">
 

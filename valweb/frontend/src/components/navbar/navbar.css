@@ -3,11 +3,20 @@
     width: 100vw;
 }
 
-.navBtn {
-    border: 1px black solid;
+.customNavItem {
+    margin: 1vh 2vh 1vh 2vh;
     background: transparent;
+    
+}
+
+.navBtn { 
+    background: transparent;
+    border: 1px black solid;
     margin: 2vh;
     font-weight: bold;
+    color: black;
+    text-align: center;
+    
 }
 
 .navBtn:hover {
@@ -29,5 +38,4 @@
 }
 
 .customNavItem {
-    margin: 1vh 0 1vh 0;
 }

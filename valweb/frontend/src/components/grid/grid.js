@@ -3,7 +3,7 @@ require("./grid.css")
 
 const grid = () => {
     return (   
-        <div className="mainGridContainer">
+        <div id="mainGridContainer">
             <div className="row d-flex justify-content-center">
                 <div className="col-sm-4 col-md-4 col-lg-4">
                     <div className="card bg-dark text-white d-flex justify-content-center flex-column customOuterGrid ">

@@ -17,7 +17,7 @@ class home extends React.Component {
 
     render() {
         return (
-            <div id="homeMainContainer" className="container-fluid">
+            <div id="homeMainContainer" className="container-fluid" data-spy="scroll" data-target="#list-example" data-offset="0">
                 <Navbar />
                 <Banner />
                 <Grid />

@@ -1,8 +1,19 @@
-#formMainContainer {
-    /* margin-top: 2vh; */
+#contactMainContainer {
+    background: whitesmoke;
+    padding: 5vh;
+    margin-bottom: 4vh;
 }
 
 #formHome {
     font-size: 20vh;
     color: wheat;
+}
+
+#checkIcon {
+    /* color: linear-gradient(#02EC3A, #008208); */
+    color: #02EC3A;
+    height: 100%;
+    width: 100%;
+    font-size: 30vh;
+    text-align: center;
 }
