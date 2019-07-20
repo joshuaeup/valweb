@@ -88,19 +88,10 @@ class bio extends React.Component  {
                         <div className="bioContactBtnContainer">
                             <div className="d-flex justify-content-center">
                                 <div className="row w-100 d-flex justify-content-between">
-                                    {/* <button
-                                    className="col-sm-2 col-md-2 col-lg-2 d-flex justify-content-start arrowCol"
-                                    onClick={this.handleClickLeft}
-                                    > */}
                                     <i className="fas fa-arrow-circle-left col-sm-2 col-md-2 col-lg-2 arrowFont" onClick={this.handleClickLeft}/>
-                                    {/* </button> */}
-                                    {/* <button
-                                    className="col-sm-2 col-md-2 col-lg-2 d-flex justify-content-end arrowCol"
-                                    onClick={this.handleClickRight}
-                                    > */}
+                       
                                     <i class="fas fa-book-open col-sm-2 col-md-2 col-lg-2 arrowFont"></i>
                                     <i className="fas fa-arrow-circle-right col-sm-2 col-md-2 col-lg-2 arrowFont" onClick={this.handleClickRight}/>
-                                    {/* </button> */}
                                 </div>
                             </div>
                             <button className="btn btn-primary rounded bioLearnMoreBtn" data-toggle="modal" data-target=".largeView">Learn More</button>

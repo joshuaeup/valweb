@@ -1,7 +1,9 @@
 #bioMainContainer {
     background: whitesmoke;
-    padding: 5vh;
-    margin-bottom: 4vh;
+    padding: 4vh;
+    /* margin-bottom: 4vh; */
+    margin: 5vh 3vh 5vh 3vh;
+    box-shadow: 0.01rem 0.01rem 1rem rgb(39, 67, 82);
 }
 
 #bioProfileImg {

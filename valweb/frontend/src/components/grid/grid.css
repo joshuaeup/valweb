@@ -3,10 +3,16 @@
 }
 
 .customOuterGrid {
+    background: white;
     z-index: 1;
     position: relative;
     /* background: orange; */
     margin-top: 4vh;
+    height: 35vh;
+}
+
+.customCardImg {
+    height: 100%;
 }
 
 .customGridColLeft, .customGridColMiddle, .customGridColRight {

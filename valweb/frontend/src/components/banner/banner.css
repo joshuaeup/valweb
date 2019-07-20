@@ -35,11 +35,16 @@
 }
 
 .bannerButtonContainer {
-    /* margin-top: 5vh; */
+    background-color: transparent;
 }
 
-#bannerBtn {
-    /* width: 20vw; */
+#bannerBtn:link {
     font-size: 3vh;
+    background-color: transparent;
+    margin: 2vh;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-decoration: none;
     
 }

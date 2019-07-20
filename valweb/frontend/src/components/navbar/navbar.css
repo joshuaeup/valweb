@@ -5,18 +5,31 @@
 
 .customNavItem {
     margin: 1vh 2vh 1vh 2vh;
-    background: transparent;
+    background-color: transparent;
     
 }
 
-.navBtn { 
-    background: transparent;
+.navBtna:link { 
+    background-color: transparent;
     border: 1px black solid;
     margin: 2vh;
     font-weight: bold;
     color: black;
     text-align: center;
-    
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.navBtna:visited {
+    background-color: transparent;
+}
+
+.navBtna:hover {
+    background-color: transparent;
+}
+
+.navBtna:active {
+    background-color: transparent;
 }
 
 .navBtn:hover {

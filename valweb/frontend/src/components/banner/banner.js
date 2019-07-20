@@ -1,5 +1,7 @@
 import React from "react";
 import Logo from "../../assets/logo.PNG";
+import { Link } from "react-router-dom";
+
 require("./banner.css");
 
 class banner extends React.Component {
@@ -22,7 +24,7 @@ class banner extends React.Component {
 ​clients can enjoy the experience and giving up is not an option.</p>
                     </div>
                     <div className="bannerButtonContainer d-flex p-2 d-flex justify-content-center">
-                        <button id="bannerBtn" type="button" className="btn btn-primary">Contact Us</button>
+                        <button id="bannerBtn" type="button" className=""><a className="navBtn list-group-item list-group-item-action" type="button" href="#contactMainContainer">Contact</a></button>
                     </div>
                 </div>
             </div>
