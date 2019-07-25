@@ -106,8 +106,8 @@ const footer = () => {
             </div>
 
 
-            <div className="footer-copyright text-center py-3">© 2019 Copyright:
-                <a href="https://joshuaeup.herokuapp.com"> Joshuaeup.herokuapp.com</a>
+            <div className="footer-copyright text-center py-3">© 2019 Powered By:
+                <a> ProctorProductions</a>
             </div>
 
         </footer>

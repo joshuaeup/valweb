@@ -1,39 +1,42 @@
 #customNav {
-    padding: 0;
+    padding-bottom: 3vh;
     width: 100vw;
+    /* background: rgb(53, 143, 173);
+    opacity: 0.4; */
+
 }
 
 .customNavItem {
-    margin: 1vh 2vh 1vh 2vh;
-    background-color: transparent;
-    
+    margin: 1vh 2vh 1vh 2vh;    
 }
 
-.navBtna:link { 
-    background-color: transparent;
+.mainNavBtn { 
+    background-color: rgb(199, 235, 255);
     border: 1px black solid;
+    padding: 0;
     margin: 2vh;
+    font-size: 3vh;
     font-weight: bold;
     color: black;
     text-align: center;
-    text-decoration: none;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Monospace";
 }
 
-.navBtna:visited {
-    background-color: transparent;
-}
-
-.navBtna:hover {
-    background-color: transparent;
-}
-
-.navBtna:active {
-    background-color: transparent;
+.navBtn:visited {
+    /* background-color: transparent; */
 }
 
 .navBtn:hover {
-    background: white;
+    /* background-color: transparent; */
+}
+
+.navBtn:active {
+    /* background-color: transparent; */
+}
+
+.mainNavBtn:hover {
+    background-color: white;
+    color: black;
 }
 
 .maxWidth {

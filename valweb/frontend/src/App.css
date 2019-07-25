@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .App {
@@ -27,11 +28,6 @@ html {
   color: #61dafb;
 }
 
-
-a:link { 
-  background-color: transparent;
-
-}
 
 @keyframes App-logo-spin {
   from {

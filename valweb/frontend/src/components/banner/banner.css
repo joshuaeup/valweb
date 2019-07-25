@@ -24,6 +24,11 @@
     height: auto; */
 }
 
+#bannerContact {
+    padding: 0 3vh 0 3vh;
+    width: auto;
+}
+
 .bannerTextContainer {
     margin: 2vh 15vh 0 15vh;
 }
@@ -35,12 +40,10 @@
 }
 
 .bannerButtonContainer {
-    background-color: transparent;
 }
 
 #bannerBtn:link {
     font-size: 3vh;
-    background-color: transparent;
     margin: 2vh;
     font-weight: bold;
     color: black;
@@ -48,3 +51,11 @@
     text-decoration: none;
     
 }
+
+
+
+ @media only screen and (max-width: 500px) {
+    .bannerTextContainer {
+        margin: 2vh 2vh 0 2vh;
+    }
+ }

@@ -24,7 +24,7 @@ class banner extends React.Component {
 ​clients can enjoy the experience and giving up is not an option.</p>
                     </div>
                     <div className="bannerButtonContainer d-flex p-2 d-flex justify-content-center">
-                        <button id="bannerBtn" type="button" className=""><a className="navBtn list-group-item list-group-item-action" type="button" href="#contactMainContainer">Contact</a></button>
+                        <a id="bannerContact" className="mainNavBtn list-group-item list-group-item-action" href="#contactMainContainer">Contact</a>
                     </div>
                 </div>
             </div>

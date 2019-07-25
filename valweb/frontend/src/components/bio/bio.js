@@ -6,6 +6,8 @@ class bio extends React.Component  {
     constructor(props) {
         super(props);
         this.state = {
+            fadeLeftClass: "arrowFont",
+            fadeRightClass: "fadeArrowFont",
             infoArr: [
                 {
                     id: 1,
@@ -54,6 +56,16 @@ class bio extends React.Component  {
                 return {switchValue: prevState.switchValue - 1}; 
             })
         } 
+        if (this.state.switchValue >= this.state.infoArr.length - 1) {
+            this.setState({
+                fadeLeftClass: "fadeArrowFont" 
+            })
+        } else {
+            this.setState({
+                fadeLeftClass: "arrowFont" 
+            })
+        }
+
     }
 
     handleClickRight() {
@@ -63,6 +75,17 @@ class bio extends React.Component  {
         if (this.state.switchValue <= this.state.infoArr.length - 2) {
             this.setState(prevState => {
                 return {switchValue: prevState.switchValue + 1}; 
+            })
+        }
+
+        if (this.state.switchValue <= this.state.infoArr.length - 3) {
+            this.setState({
+                fadeRightClass: "fadeArrowFont",
+                fadeLeftClass: "fadeArrowFont"
+            }) 
+        } else {
+            this.setState({
+                fadeRightClass: "arrowFont" 
             })
         }
     }
@@ -88,14 +111,19 @@ class bio extends React.Component  {
                         <div className="bioContactBtnContainer">
                             <div className="d-flex justify-content-center">
                                 <div className="row w-100 d-flex justify-content-between">
-                                    <i className="fas fa-arrow-circle-left col-sm-2 col-md-2 col-lg-2 arrowFont" onClick={this.handleClickLeft}/>
-                       
-                                    <i class="fas fa-book-open col-sm-2 col-md-2 col-lg-2 arrowFont"></i>
-                                    <i className="fas fa-arrow-circle-right col-sm-2 col-md-2 col-lg-2 arrowFont" onClick={this.handleClickRight}/>
+                                    <i className={`fas fa-arrow-circle-left col-sm-2 col-md-2 col-lg-2 ${this.state.fadeLeftClass}`} onClick={this.handleClickLeft} />
+                                    <i class="fas fa-book-open col-sm-2 col-md-2 col-lg-2 bookFont"></i>
+                                    <i className={`fas fa-arrow-circle-right col-sm-2 col-md-2 col-lg-2 ${this.state.fadeRightClass}`} onClick={this.handleClickRight}/>
                                 </div>
                             </div>
-                            <button className="btn btn-primary rounded bioLearnMoreBtn" data-toggle="modal" data-target=".largeView">Learn More</button>
-                            <button className="btn btn-primary rounded bioContactBtn">Contact</button>
+                            <div className="row">
+                                <div className="col-sm-6 col-md-6 col-lg-6">
+                                    <a className="mainBioBtn list-group-item list-group-item-action btn btn-primary" role="button" data-toggle="modal" data-target=".largeView">Learn More</a> 
+                                </div>
+                                <div className="col-sm-6 col-md-6 col-lg-6">
+                                    <a className="mainBioBtn list-group-item list-group-item-action btn btn-primary" role="button" href="#contactMainContainer">Contact</a>     
+                                </div>
+                            </div>
                             <div className="modal fade largeView" tabIndex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                                 <div className="modal-dialog modal-lg">
                                     <div className="modal-content">

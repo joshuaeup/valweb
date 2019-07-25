@@ -36,9 +36,30 @@
     width: 30%;
 }
 
-.arrowFont {
+.mainBioBtn {
+    background-color: rgb(199, 235, 255);
+    width: auto;
+    margin: 0;
+    text-align: center;
+    border: 1px black solid;
+    padding: 0;
+    font-size: 3vh;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-family: "Monospace";
+}
+
+.arrowFont, .fadeArrowFont, .bookFont {
     margin-bottom: 4vh;
     font-size: 4vh;
+}
+
+
+
+
+.arrowFont:hover {
+    /* color: rgb(199, 235, 255); */
 }
 
 .arrowFont:hover{
@@ -49,3 +70,20 @@
 #AwardTemp {
     height: 80vh;;
 }
+
+@keyframes fadeInOut {
+    0% {
+    color: black;
+    }
+    100% {
+    color:rgb(199, 235, 255);;
+    }
+  }
+  
+ .fadeArrowFont {
+    animation-name: fadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+  }
