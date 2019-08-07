@@ -112,7 +112,7 @@ class bio extends React.Component  {
                             <div className="d-flex justify-content-center">
                                 <div className="row w-100 d-flex justify-content-between">
                                     <i className={`fas fa-arrow-circle-left col-sm-2 col-md-2 col-lg-2 ${this.state.fadeLeftClass}`} onClick={this.handleClickLeft} />
-                                    <i class="fas fa-book-open col-sm-2 col-md-2 col-lg-2 bookFont"></i>
+                                    <i className="fas fa-book-open col-sm-2 col-md-2 col-lg-2 bookFont"></i>
                                     <i className={`fas fa-arrow-circle-right col-sm-2 col-md-2 col-lg-2 ${this.state.fadeRightClass}`} onClick={this.handleClickRight}/>
                                 </div>
                             </div>
@@ -127,6 +127,11 @@ class bio extends React.Component  {
                             <div className="modal fade largeView" tabIndex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                                 <div className="modal-dialog modal-lg">
                                     <div className="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
                                         <img id="AwardTemp" alt="award" src="https://blogs.saphana.com/wp-content/uploads/2015/12/trophy.jpg" />
                                     </div>
                                 </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import profileImg from "../../assets/profileImg.JPG"
 import axios from "axios";
 
 require("./contact.css");
@@ -97,7 +96,7 @@ class contact extends React.Component {
                     ) : null}
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-6">
-                    <iframe src="https://snazzymaps.com/embed/27427" width="100%" height="600px"></iframe>
+                    <iframe title="map" src="https://snazzymaps.com/embed/27427" width="100%" height="600px"></iframe>
                 </div>
             </div>
         </div>

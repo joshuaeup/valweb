@@ -1,6 +1,5 @@
 import React from "react";
 import Logo from "../../assets/logo.PNG";
-import { Link } from "react-router-dom";
 
 require("./banner.css");
 
@@ -25,6 +24,9 @@ class banner extends React.Component {
                     </div>
                     <div className="bannerButtonContainer d-flex p-2 d-flex justify-content-center">
                         <a id="bannerContact" className="mainNavBtn list-group-item list-group-item-action" href="#contactMainContainer">Contact</a>
+                    </div>
+                    <div className="bannerArrow d-flex p-2 d-flex justify-content-center">
+                        <i className="text-white fas fa-arrow-circle-down"></i>
                     </div>
                 </div>
             </div>

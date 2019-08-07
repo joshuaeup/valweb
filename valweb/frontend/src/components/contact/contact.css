@@ -19,3 +19,23 @@
     font-size: 30vh;
     text-align: center;
 }
+
+
+
+
+@keyframes glowCheck {
+    0% {
+    color: rgb(19, 202, 62);
+    }
+    100% {
+    color: rgb(37, 255, 88);
+    }
+  }
+  
+  #checkIcon {
+    animation-name: glowCheck;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+  }

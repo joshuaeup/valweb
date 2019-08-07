@@ -4,7 +4,7 @@ require("./footer.css");
 const footer = () => {
     return (
         <footer id="mainFooterContainer" className="page-footer font-small unique-color-dark">
-            <div>
+            {/* <div>
                 <div className="container">
 
                 <div className="row py-4 d-flex align-items-center">
@@ -36,7 +36,7 @@ const footer = () => {
                 </div>
 
                 </div>
-            </div>
+            </div> */}
             
 
             <div className="container text-center text-md-left mt-5">
