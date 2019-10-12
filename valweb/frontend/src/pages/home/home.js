@@ -2,9 +2,12 @@ import React from "react";
 import Navbar from "../../components/navbar";
 import Banner from "../../components/banner";
 import Grid from "../../components/grid";
+import Collage from "../../components/collage"
 import Bio from "../../components/bio"
 import Contact from "../../components/contact";
 import Footer from "../../components/footer";
+import { Link } from "react-router-dom";
+
 require ("./home.css");
 
 class home extends React.Component {
@@ -21,6 +24,7 @@ class home extends React.Component {
                 <Navbar />
                 <Banner />
                 <Grid />
+                {/* <Collage /> */}
                 <Bio />
                 <Contact />
                 <Footer />

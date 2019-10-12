@@ -12,30 +12,13 @@ class navbar extends React.Component {
     
     render() {
         return (
-            <nav id="customNav" className="navbar navbar-expand-lg fixed-top" >
-                <button id="toggleBtn" className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <i className="fas fa-bars" id="textWhite"></i>
-                </button>
-                <div className="collapse navbar-collapse maxWidth justify-content-center" id="navbarNavDropdown">
-                    <ul className="navbar-nav">
-                        <li className="customNavItem">
-                            <a className="mainNavBtn list-group-item list-group-item-action" href="#bannerMainContainer">Banner</a>     
-                        </li>
-                        <li className="customNavItem">
-                            <a className="mainNavBtn list-group-item list-group-item-action" href="#mainGridContainer">Grid</a>                     
-                        </li>
-                        <li className="customNavItem">
-                            <a className="mainNavBtn list-group-item list-group-item-action" href="#bioMainContainer">Bio</a>                     
-                        </li>
-                        <li className="customNavItem">
-                            <a className="mainNavBtn list-group-item list-group-item-action" href="#contactMainContainer">Contact</a>                
-                        </li>
-                        <li className="customNavItem">
-                            <a className="mainNavBtn list-group-item list-group-item-action" href="#mainFooterContainer">More Info</a>                
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            <div id="homeResponsiveTopNav" className="d-flex justify-content-center">
+                <a className="homeResponsiveTopNavHome justify-content-center align-items-center topNavText" href="#bannerMainContainer">Home</a>   
+                <a className="homeResponsiveTopNavGrid justify-content-center align-items-center topNavText" href="#mainGridContainer">Grid</a>
+                <a className="homeResponsiveTopNavBio justify-content-center align-items-center topNavText" href="#bioMainContainer">Bio</a> 
+                <a className="homeResponsiveTopNavContact justify-content-center align-items-center topNavText" href="#contactMainContainer">Contact</a>
+                <a className="homeResponsiveTopNavMoreInfo justify-content-center align-items-center topNavText" href="#mainFooterContainer">More Info</a> 
+            </div>
     )}
 }
 

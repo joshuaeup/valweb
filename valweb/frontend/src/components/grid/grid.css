@@ -1,4 +1,5 @@
 #mainGridContainer {
+    /* height: 100vh; */
     margin: 0 0 4vh 0;
 }
 
@@ -8,17 +9,20 @@
     position: relative;
     /* background: orange; */
     margin-top: 4vh;
-    height: 35vh;
+    height: 100%;
 }
 
 .customCardImg {
+    object-fit: cover;
     height: 100%;
 }
 
 .customGridColLeft, .customGridColMiddle, .customGridColRight {
     z-index: 3;
    text-align: center;
-   margin-top: 15%;
+   position: absolute;
+   top: 45%;
+   /* margin-top: 80%; */
    /* vertical-align: middle; */
 }
 
@@ -35,15 +39,15 @@
     transition: height 1.5s;
 }
 
-.customGridColLeft:hover + #overlayLeft {
+.customGridColLeftHover:hover + #overlayLeft {
     height: 100%
 }
 
-.customGridColMiddle:hover + #overlayMiddle {
+.customGridColMiddleHover:hover + #overlayMiddle {
     height: 100%
 }
 
-.customGridColRight:hover + #overlayRight {
+.customGridColRightHover:hover + #overlayRight {
     height: 100%
 }
 
@@ -72,4 +76,18 @@
     .mainGridBtn {
         margin: 0 5vh 0 5vh;
     }
+ }
+
+
+ .customRow {
+     height: 50vh;
+ }
+
+.customCol {
+    height: 100vh;
+}
+
+ .testImg {
+     height: auto;
+     width: auto;
  }

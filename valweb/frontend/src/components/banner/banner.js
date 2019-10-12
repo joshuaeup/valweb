@@ -14,19 +14,19 @@ class banner extends React.Component {
     render() {
         return (
             <div id="bannerMainContainer" className="container-fluid d-flex justify-content-center">
-                <div className="d-flex justify-content-center flex-column">
-                    <div className="bannerImageContainer d-flex p-2">
+                <div className="">
+                    <div className="bannerImageContainer ">
                         <img className="mx-auto d-block" id="bannerImg" alt="banner" src={Logo} />
                     </div>
-                    <div className="bannerTextContainer d-flex p-2">
+                    <div className="bannerTextContainer d-flex justify-content-center">
                         ​<p className="bannerText text-center">We are here to provide professional real estate services where
-​clients can enjoy the experience and giving up is not an option.</p>
+​                           clients can enjoy the experience and giving up is not an option.</p>
                     </div>
-                    <div className="bannerButtonContainer d-flex p-2 d-flex justify-content-center">
+                    <div className="bannerButtonContainer d-flex justify-content-center">
                         <a id="bannerContact" className="mainNavBtn list-group-item list-group-item-action" href="#contactMainContainer">Contact</a>
                     </div>
-                    <div className="bannerArrow d-flex p-2 d-flex justify-content-center">
-                        <i className="text-white fas fa-arrow-circle-down"></i>
+                    <div className="bannerArrowContainer d-flex justify-content-center">
+                        <a href="#mainGridContainer"><i className="bannerArrow text-white fas fa-arrow-circle-down"></i></a>
                     </div>
                 </div>
             </div>

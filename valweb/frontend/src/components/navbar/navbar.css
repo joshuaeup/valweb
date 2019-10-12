@@ -1,15 +1,3 @@
-#customNav {
-    padding-bottom: 3vh;
-    width: 100vw;
-    /* background: rgb(53, 143, 173);
-    opacity: 0.4; */
-
-}
-
-.customNavItem {
-    margin: 1vh 2vh 1vh 2vh;    
-}
-
 .mainNavBtn { 
     background-color: rgb(199, 235, 255);
     border: 1px black solid;
@@ -22,22 +10,7 @@
     font-family: "Monospace";
 }
 
-.navBtn:visited {
-    /* background-color: transparent; */
-}
 
-.navBtn:hover {
-    /* background-color: transparent; */
-}
-
-.navBtn:active {
-    /* background-color: transparent; */
-}
-
-.mainNavBtn:hover {
-    background-color: white;
-    color: black;
-}
 
 .maxWidth {
     width: 100%;
@@ -47,11 +20,111 @@
     color: white;
 }
 
-#toggleBtn {
-    margin: 2vh;
-    font-size: 4vh;
-    border: solid 2px white;
+
+#homeResponsiveTopNav {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 7vh;
+    /* z-index: 2; */
+    /* background: #6bbaa7; */
+    /* opacity: 0.9; */
 }
 
-.customNavItem {
+.topNavText {
+    color: white;
+    text-align: center;
+    font-size: 3vh;
+    margin: 1vh 0 1vh 0;
 }
+
+.homeResponsiveTopNavHome, .homeResponsiveTopNavGrid, .homeResponsiveTopNavBio, .homeResponsiveTopNavContact, .homeResponsiveTopNavMoreInfo {
+    margin: 0;
+    padding: 1vh;
+    display: inline;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+    background: #3A506B;
+    width: 100%;
+    text-align: center;
+    
+}
+
+/* NAVIGATION BUTTONS */
+
+.homeResponsiveTopNavHome {
+    text-decoration: none;
+    border-top: solid #749dcec0 3px;
+}
+
+.homeResponsiveTopNavGrid {
+    text-decoration: none;
+    border-top: solid #749dcec0 3px;
+}
+
+.homeResponsiveTopNavBio {
+    text-decoration: none;
+    border-top: solid #749dcec0 3px;
+}
+
+.homeResponsiveTopNavContact {
+    text-decoration: none;
+    border-top: solid #749dcec0 3px;
+}
+
+.homeResponsiveTopNavMoreInfo {
+    text-decoration: none;
+    border-top: solid #749dcec0 3px;
+}
+
+/* HOVER NAVIGATION BUTTONS */
+
+.homeResponsiveTopNavHome:hover, .homeResponsiveTopNavGrid:hover, .homeResponsiveTopNavBio:hover, .homeResponsiveTopNavContact:hover, .homeResponsiveTopNavMoreInfo:hover {
+    background: #749dcec0;  
+    color: white;    
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+/* 
+
+.homeResponsiveTopNavHome:hover {
+    text-decoration: none;
+    background: #749dcec0;
+    cursor: pointer;
+
+}
+
+.homeResponsiveTopNavGrid:hover {
+    text-decoration: none;
+    background: #749dcec0;
+    cursor: pointer;
+
+}
+
+.homeResponsiveTopNavBio:hover {
+    background: #749dcec0;
+    cursor: pointer;
+
+}
+
+.homeResponsiveTopNavContact:hover {
+    background: #749dcec0;
+    cursor: pointer;
+
+}
+
+.homeResponsiveTopNavMoreInfo:hover {
+    background: #749dcec0;
+    cursor: pointer;
+
+} */
+
+
