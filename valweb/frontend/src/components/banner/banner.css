@@ -119,11 +119,38 @@
   }
 
 
+
+@media only screen and (max-width: 1204px) {
+    .bannerTextContainer {
+        margin: 0 20vh 0 20vh;
+    }
+} 
+
+
+@media only screen and (max-width: 975px) {
+    .bannerTextContainer {
+        margin: 0 10vh 0 10vh;
+    }
+} 
+
+
  @media only screen and (max-width: 500px) {
     .bannerTextContainer {
         margin: 2vh 2vh 0 2vh;
     }
  }
+
+ @media only screen and (max-width: 400px) {
+    #bannerContact {
+        font-size: 2vh;
+    }
+
+    .bannerTextContainer {
+        margin: 0 1vh 0 1vh;
+    }
+ }
+
+
 
 
  

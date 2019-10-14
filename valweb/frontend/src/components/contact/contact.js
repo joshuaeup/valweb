@@ -1,5 +1,7 @@
 import React from "react";
 import axios from "axios";
+import Logo from "../../assets/logo.PNG"
+import ContactFormImg from "../../assets/contactFormImg.JPG"
 
 require("./contact.css");
 
@@ -53,7 +55,7 @@ class contact extends React.Component {
     render() {
         return (
             <div id="contactMainContainer">
-            <div className="row">
+            {/* <div className="row contactRow">
                 <div className="col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center flex-column">
                 <i id="formHome" className="fas fa-home p-2 text-center"></i>
                 {this.state.emailNotSent ? (
@@ -98,7 +100,65 @@ class contact extends React.Component {
                 <div className="col-sm-12 col-md-12 col-lg-6">
                     <iframe title="map" src="https://snazzymaps.com/embed/27427" width="100%" height="600px"></iframe>
                 </div>
-            </div>
+            </div> */}
+
+<div id="contactRow" className="row" data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
+                  <div className="col-sm-12 col-m-6 col-lg-6 contactCol">
+                  <div id="contactLogoContentOnImg">
+                    <img className="mx-auto d-block" id="contactBannerImg" alt="banner" src={Logo} />
+                    </div>
+                    <div id="contactContentOnImg">
+                    <div className="row">
+                        <div className="col-sm-12 col-md-6 col-lg-6">
+                            <i className="fas fa-phone contentOnImgIcon"></i><p className="contentOnImgTitle">Lets Talk</p>
+                            <p className="contentOnImgText">+1 (980) 365-1799</p>
+                        </div>
+                        <div className="col-sm-12 col-md-6 col-lg-6">
+                            <i className="fas fa-envelope contentOnImgIcon"></i><p className="contentOnImgTitle">Email</p>
+                            <p className="contentOnImgText">joshuaeup@gmail.com</p>
+                        </div>
+                    </div>
+                    </div>
+                    <img id="contactPageImg" alt="Contact" src={ContactFormImg} />
+                  </div>
+                  <div className="col-sm-12 col-m-6 col-lg-6 contactColForm">
+                    <form id="mainFormContainer" onSubmit={this.handleSubmit.bind(this)} method="POST">
+                      <div className="row customFormRow d-flex justify-content-center">
+                        <h1 id="formTitle" className="text-center">Send Me A Message</h1>
+                        <div className="formFieldContainer row">
+                          <label className="col-sm-12 col-md-12 col-lg-12 formLabel formFields">Enter your name *</label>
+                          <div className="col-sm-6 col-md-6 col-lg-6 formInputContainer">
+                            <input id="inputFname" type="text" className="formFields" placeholder="First name" />
+                          </div>
+                          <div className="col-sm-6 col-md-6 col-lg-6 formInputContainer">
+                            <input id="inputLname" type="text" className="formFields" placeholder="Last name" />
+                          </div>
+                        </div>
+                        <div className="formFieldContainer row">
+                          <label className="col-sm-12 col-md-12 col-lg-12 formLabel formFields">Enter your email *</label>
+                          <div className="col-sm-12 col-md-12 col-lg-12 formInputContainer">
+                            <input id="inputEmail" type="email" className="formFields" placeholder="Eg. example@email.com" />
+                          </div>
+                        </div>
+                        <div className="formFieldContainer row">
+                          <label className="col-sm-12 col-md-12 col-lg-12 formLabel formFields">Enter phone number</label>
+                          <div className="col-sm-12 col-md-12 col-lg-12 formInputContainer">
+                            <input id="inputNumber" type="tel" className="formFields" placeholder="Eg. +1 800 0000000" />
+                          </div>
+                        </div>
+                        <div className="formFieldContainer row">
+                          <label className="col-sm-12 col-md-12 col-lg-12 formLabel formFields">Message *</label>
+                          <div className="col-sm-12 col-md-12 col-lg-12 formInputContainer">
+                            <textarea id="inputMessage" rows="4" type="message" className="formFields" placeholder="Write a message" />
+                          </div>
+                        </div>
+                        <div className="formFieldContainer row d-flex justify-content-center">
+                          <button type="submit" id="formSubmitBtn" className="btn-primary">Send Message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
         </div>
         )
     }

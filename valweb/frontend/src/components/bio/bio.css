@@ -1,8 +1,14 @@
 #bioMainContainer {
+    background: white;
+    padding: 4vh;
+    height: auto;
+}
+
+.bioRow {
     background: whitesmoke;
     padding: 4vh;
     /* margin-bottom: 4vh; */
-    margin: 10vh 3vh 10vh 3vh;
+    margin: 5vh 1vh 10vh 1vh;
     box-shadow: 0.01rem 0.01rem 1rem rgb(39, 67, 82);
 }
 
@@ -87,3 +93,26 @@
     animation-duration: 2s;
     animation-direction: alternate;
   }
+
+
+
+  @media only screen and (max-width: 2266px) {
+    #bioText {
+        /* font-size: 40px; */
+    }
+
+    #bioTitle {
+        font-size: 3vh;
+    }
+
+    .mainBioBtn {
+        font-size: 2vh;
+    }
+} 
+
+
+@media only screen and (max-width: 443px) {
+    #bioProfileImg {
+        height: 25vh;
+    }
+} 

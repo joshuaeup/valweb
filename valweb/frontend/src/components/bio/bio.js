@@ -95,8 +95,8 @@ class bio extends React.Component  {
     render() {
         return (
             <div id="bioMainContainer">
-                <div className="row">
-                    <div className="col-sm-12 col-md-12 col-lg-5 d-flex  flex-column">
+                <div className="row bioRow">
+                    <div className="col-sm-12 col-md-12 col-lg-5 d-flex flex-column">
                     <div className="d-flex justify-content-center">
                         <img id="bioProfileImg" className="rounded p-2 "  alt="Profile" src={profileImg} />
                     </div>

@@ -1,14 +1,22 @@
 #mainGridContainer {
-    /* height: 100vh; */
-    margin: 0 0 4vh 0;
+    height: 100vh;
+    /* margin: 0; */
+    margin: 6vh 5vh 0 5vh;
+    /* border-top: 1px solid rgba(199, 198, 198, 0.637);
+    border-bottom: 1px solid rgba(199, 198, 198, 0.637); */
+    background-image: url('http://alfaestates.com/wp-content/uploads/2013/03/living-room-architecturedesign-house-houses-interior-luxury-modern.jpg');
+    /* Full height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .customOuterGrid {
-    background: white;
     z-index: 1;
     position: relative;
-    /* background: orange; */
-    margin-top: 4vh;
     height: 100%;
 }
 
@@ -20,10 +28,41 @@
 .customGridColLeft, .customGridColMiddle, .customGridColRight {
     z-index: 3;
    text-align: center;
-   position: absolute;
-   top: 45%;
-   /* margin-top: 80%; */
-   /* vertical-align: middle; */
+   padding-top: 40vh;
+}
+
+.customColLeft, .customColMid, .customColRight {
+    height: 100vh;
+}
+
+.customColLeft {
+    border-right: 4vh white solid;
+    padding: 0;
+    /* margin-right: 1vh; */
+    background: transparent;
+}
+
+.customColMid {
+    border-right: 2vh white solid;
+    border-left: 2vh white solid;
+    padding: 0;
+    /* margin-left: 1vh; */
+    background: transparent;
+    /* margin-right: 1vh; */
+}
+
+.customColRight {
+    border-left: 4vh white solid;
+    padding: 0;
+    /* margin-Left: 1vh; */
+    background: transparent;
+}
+
+.customRow {
+    margin: 0;
+    width: 100%;
+    background: transparent;
+    
 }
 
 
@@ -72,20 +111,67 @@
 }
 
 
-@media only screen and (max-width: 769px) {
+
+
+
+ @media only screen and (max-width: 1100px) {
     .mainGridBtn {
+        font-size: 2vh;
         margin: 0 5vh 0 5vh;
+    }
+} 
+
+@media only screen and (max-width: 758px) {
+    .mainGridBtn {
+        font-size: 2vh;
+        margin: 0 2vh 0 2vh;
+    }
+
+    .customCardTitle {
+        font-size: 2vh;
     }
  }
 
+ @media only screen and (max-width: 593px) {
+    #mainGridContainer {
+        margin: 6vh 2vh 0 2vh;
+     }
+    .mainGridBtn {
+        font-size: 9px;
+        margin: 0 0 0 0;
+    }
 
- .customRow {
-     height: 50vh;
+    .customColLeft {
+        border-right: 6px white solid;
+    }
+    
+    .customColMid {
+        border-right: 3px white solid;
+        border-left: 3px white solid;
+    }
+    
+    .customColRight {
+        border-left: 6px white solid;
+    }
+
+    .customCardTitle {
+        font-size: 10px;
+    } 
+ }
+
+
+
+
+ /* .customRow {
+     height: 100%;
+ } */
+ /* .customRow {
+   height: 90vh;
  }
 
 .customCol {
-    height: 100vh;
-}
+    height: 90vh;
+} */
 
  .testImg {
      height: auto;
