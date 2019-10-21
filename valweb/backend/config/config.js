@@ -1,4 +1,4 @@
 module.exports = {
-    USER: 'joshuaeup', 
+    USER: 'joshuaeupportfolio', 
     PASS: 'rockeT04'
 }

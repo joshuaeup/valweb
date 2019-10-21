@@ -27,11 +27,11 @@ router.post('/send', (req, res, next) => {
   var number = req.body.number
   var email = req.body.email
   var message = req.body.message
-  var content = `Name: ${fname} ${lname} \nEmail: ${email} \nMessage: ${message} `
+  var content = `Name: ${fname} ${lname} \nEmail: ${email} \Number: ${number} \nMessage: ${message} `
 
   var mail = {
     from: lname + ' ' + fname,
-    to: 'joshuaeup@gmail.com',  //Change to email address that you want to receive messages on
+    to: 'joshuaeupportfolio@gmail.com',  //Change to email address that you want to receive messages on
     subject: `ValWeb New Message from from: ${fname} ${lname}`,
     text: content
   }
