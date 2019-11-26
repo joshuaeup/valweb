@@ -1,0 +1,158 @@
+#bannerMainContainer {
+    /* background-image:url("https://smartard.files.wordpress.com/2010/04/img_85251.jpg"); */
+    background-image:url("https://blog.unpakt.com/wp-content/uploads/2016/06/Charlotte-North-Carolina-39332976_xxl-e1514618906810.jpg");
+    /* background-image:url("https://media.istockphoto.com/photos/charlotte-north-carolina-usa-skyline-picture-id928995508"); */
+
+    
+    width:100vw;
+    height:93vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: relative;
+    margin: 0;
+    padding-top: 3vh;
+}
+
+#bannerImg {
+    height: 40vh;
+    /* width: 27vh; */
+    width: auto;
+}
+
+
+.bannerImageContainer, .bannerTextContainer, .bannerButtonContainer {
+    /* position: relative;
+    top: 0;
+    width: 100%;
+    height: auto; */
+}
+
+#bannerContact {
+    /* padding: 0 3vh 0 3vh; */
+    color: white;
+    width: 30vw;
+    padding: 8px 13px 8px 13px;
+    font-size:3vh;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+    border-radius: 5vh;
+    background: #749dcec0;
+    border-radius: 3vh;
+    border: solid white 3px;
+}
+
+.bannerTextContainer {
+    /* margin: 0 15vh 0 15vh;
+    background: rgb(199, 235, 255);
+    opacity: 0.5; */
+
+    color: white;
+    width: auto;
+    margin: 0 30vh 0 30vh;
+    padding: 8px 13px 8px 13px;
+    font-size:3vh;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+    border-radius: 5vh;
+    background: #749dcec0;
+    border-radius: 3vh;
+    border: solid white 3px;
+}
+
+
+.bannerText {
+    color: white;
+    font-size: 3vh;
+}
+
+.bannerButtonContainer {
+}
+
+#bannerBtn:link {
+    font-size: 3vh;
+    margin: 2vh;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+
+
+
+.bannerArrowContainer {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    font-size: 6vh;
+}
+
+
+@keyframes glowBannerArrow {
+    0% {
+    color: white;
+    }
+    100% {
+    color: rgb(199, 235, 255);;
+    }
+  }
+  
+  .bannerArrow {
+    animation-name: glowBannerArrow;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: alternate;
+  }
+
+
+
+@media only screen and (max-width: 1204px) {
+    .bannerTextContainer {
+        margin: 0 20vh 0 20vh;
+    }
+} 
+
+
+@media only screen and (max-width: 975px) {
+    .bannerTextContainer {
+        margin: 0 10vh 0 10vh;
+    }
+} 
+
+
+ @media only screen and (max-width: 500px) {
+    .bannerTextContainer {
+        margin: 2vh 2vh 0 2vh;
+    }
+ }
+
+ @media only screen and (max-width: 400px) {
+    #bannerContact {
+        font-size: 2vh;
+    }
+
+    .bannerTextContainer {
+        margin: 0 1vh 0 1vh;
+    }
+ }
+
+
+
+
+ 
+
+ 
