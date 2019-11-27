@@ -107,8 +107,8 @@ const footer = () => {
 
 
             <div className="footer-copyright text-center py-3">© 2019 Powered By:
-                <a> ProctorProductions</a>
-            </div>
+                <p>ProctorProductions</p>
+            </div> 
 
         </footer>
     )
