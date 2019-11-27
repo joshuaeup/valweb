@@ -5,6 +5,7 @@
   "dependencies": {
     "axios": "^0.19.0",
     "concurrently": "^5.0.0",
+    "lodash": "^4.17.15",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
@@ -15,7 +16,6 @@
     "server": "node ./backend/bin/www.js",
     "client": "react-scripts start",
     "start": "concurrently \"npm run server\" \"npm run client\""
-
   },
   "eslintConfig": {
     "extends": "react-app"
