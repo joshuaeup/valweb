@@ -12,10 +12,9 @@
     "react-scripts": "3.0.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node ./backend/bin/www.js",
-    "client": "react-scripts start",
-    "start": "concurrently \"npm run server\" \"npm run client\""
+    "start": "npm run server",
+    "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
